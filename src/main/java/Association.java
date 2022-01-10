@@ -1,2 +1,4 @@
-public abstract class Association {
+public abstract class Association implements Relation{
+    public Classe source;
+    public Entite destination;
 }

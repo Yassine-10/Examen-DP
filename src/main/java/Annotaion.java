@@ -1,2 +1,5 @@
-public class Annotaion {
+import java.util.List;
+
+public class Annotaion extends Entite{
+    public List<Propriete> proprietes;
 }
